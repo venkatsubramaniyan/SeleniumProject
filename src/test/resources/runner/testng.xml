@@ -2,10 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Suite" thread-count="4" verbose="3">
 <listeners>
-		<listener class-name="com.qa.oc.listeners.ExtentReportListener" />		
-		
-		<!-- <listener class-name="com.qa.opencart.listeners.AnnotationTransformer" 
-			/> -->
+		<listener class-name="com.qa.oc.listeners.ExtentReportListener" />
  </listeners>
 
   <test  name="AccountPageTest">
