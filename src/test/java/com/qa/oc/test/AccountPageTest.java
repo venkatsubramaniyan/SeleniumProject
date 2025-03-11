@@ -9,8 +9,7 @@ import org.testng.annotations.Test;
 
 import com.qa.oc.base.BaseTest;
 import com.qa.oc.constant.AppConstant;
-import com.qa.oc.pages.AccountPage;
-import com.qa.oc.pages.SearchResultsPage;
+
 
 public class AccountPageTest extends BaseTest {
 
